@@ -8,13 +8,13 @@ let package = Package(
   products: [
     .library(
       name: "MyFramework",
-      targets: ["MyFramework"]
+      targets: [""]
     )
   ],
 
   targets: [
     .target(
-      name: "MyFramework",
+      name: "",
       path: "."
     )
   ]
