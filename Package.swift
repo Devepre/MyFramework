@@ -7,15 +7,10 @@ let package = Package(
   name: "MyFramework",
   products: [
     .library(
-      name: "MyFramework",
-      targets: [""]
-    )
-  ],
-
-  targets: [
-    .target(
-      name: "",
-      path: "."
+        name: "MyFramework",
+        targets: [
+            ""
+        ]
     )
   ]
 )
