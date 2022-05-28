@@ -9,7 +9,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Kingfisher",
+            name: "MyFramework",
             path: "./MyFramework.xcframework"
         )
     ]
